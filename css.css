@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+=============
+Nav Bar Items
+=============
+*/
+
+.nav-bar{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: grey;
+    width: 100%;
+}
+
+.top-left {
+    position: relative;
+    float: left;
+    padding-right: 50px;
+    width: auto;
+}
+
+.search-bar-container {
+    margin: auto;
+    width: 25%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 15%;
+}
+
+.top-right {
+    position: relative;
+    float: right;
+    padding-left: 4em;
+    width: auto;
+}
+
+.youtube-logo {
+    width: 75px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    background-position: center;
+    font-size: larger;
+}
+
+.search-bar {
+    width: 250px;
+    margin: auto;
+}
+.create-post {
+    background-image: url("./images/create-post.png");
+}
+
+.apps {
+    background-image: url("./images/apps.png");
+}
+
+.notifications {
+    background-image: url("./images/notifications.png");
+}
+
+.user-icon {
+    background-image: url("./images/user-icon.png");
+    border-radius: 50%;
+}
+
+
+
+
+/*
+==============
+Main body
+==============
+*/
+
+.col-1-3 {
+    width: 30%;
+    background-color: green;
+    height: 500px;
+}
+
+.col-2-3 {
+    width: 60%;
+    background-color: lightblue;
+    height: 500px;
+}
+
+.col-13,
+.col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-grid,
+.col-1-3,
+.col-2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-grid {
+    margin: auto;
+    width: 960px;
+}
