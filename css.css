@@ -173,6 +173,11 @@ Video contents
 
 .video-info {
     display: inline-block;
+    background-color: lightblue;
+}
+
+.likes-dislikes-share-save {
+    float: right;
 }
 
 .video-title {
@@ -189,3 +194,10 @@ Video contents
     color: grey;
 }
 
+.thumbs-up-info,
+.thumbs-down-info,
+.share-info,
+.save-info,
+.other-info {
+    float:right;
+}
