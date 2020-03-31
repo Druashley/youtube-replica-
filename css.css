@@ -50,9 +50,16 @@ Nav Bar Items
 .nav-bar{
     box-sizing: border-box;
     display: inline-block;
-    background-color: grey;
+    /* background-color: grey; */
     width: 100%;
     position: fixed;
+}
+
+.nav-bar-container {
+    border-bottom: black solid 1px;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .top-left {
@@ -82,8 +89,8 @@ Nav Bar Items
 }
 
 .btn {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 5px;
     background-color: transparent;
     background-position: center;
@@ -124,19 +131,19 @@ Main body
     margin: auto;
     width: 100%;
     box-sizing: border-box;
-    padding-top: 1xcm;
+    padding-top: 1cm;
 }
 
 .col-1-3 {
     width: 30%;
-    background-color: green;
+   /* background-color: green; */
     height: 1000px;
     float: right;
 }
 
 .col-2-3 {
     width: 66%;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     height: 500px;
     float: left;
 }
@@ -167,3 +174,18 @@ Video contents
 .video-info {
     display: inline-block;
 }
+
+.video-title {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.icon {
+    width: 25px;
+}
+
+.icon-text {
+    font-size: small;
+    color: grey;
+}
+
